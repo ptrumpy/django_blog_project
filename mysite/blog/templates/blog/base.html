@@ -15,13 +15,13 @@
     <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{% static 'css/blog.c' %}">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Russo+One&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class='loader'>
     <!-- Navbar -->
     <nav class="navbar navbar-default techfont custom-navbar">
       <div class="container">
@@ -64,5 +64,6 @@
       </div>
 
     </div>
+    <script type="text/javascript" src="{% static 'js/blog.js' %}"></script>
   </body>
 </html>
